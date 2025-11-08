@@ -3,8 +3,8 @@
 Practice project demonstrating how to **fetch** data from a public REST API, parse **JSON**, and **render it as a dynamic HTML table** (with auto-generated headers). Next, this will add a client-side **search filter**.
 
 ## 🔗 Live Demo
-👉 [View on GitHub Pages](https://YOUR-USERNAME.github.io/javascript-api-fetch-demo/)  
-*(Replace `YOUR-USERNAME` with your GitHub handle.)*
+👉 [View on GitHub Pages](https://walkitoff.github.io/javascript-api-fetch-demo/)  
+
 
 ## 🔗 API Source
 Data from [JSONPlaceholder – `/users`](https://jsonplaceholder.typicode.com/users)
