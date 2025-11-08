@@ -1,0 +1,45 @@
+main{
+    text-align: center;
+}
+
+h1{
+ 
+    font-size: clamp(20px, 5vw, 40px); /* Font size will be between 20px and 60px, scaling with 5vw */
+
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+
+th{
+    border-bottom: 3px solid black;
+     font-size: clamp(20px, 2vw, 40px); /* Font size will be between 20px and 60px, scaling with 5vw */
+}
+
+th, td{
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+li{
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+ul{
+    list-style-type: none;
+}
+
+.left-span{
+    padding-right: 15px;
+    
+}
+
+.right-span{
+    float: right;
+}
