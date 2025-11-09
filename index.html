@@ -5,13 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>api-fetch-demo</title>
     <link rel = "stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 <body>
     <main>
-        <h1>Data retrieved from this placeholder-API: <a style="font-size: 1.2rem;" target="_blank" href="https://jsonplaceholder.typicode.com/users">https://jsonplaceholder.typicode.com/users</a></h1>
-        <div style="overflow-y:auto;">
-            <table id="user-data"><tr id="table-headers"></tr></table>
+        <div class="logo-container">
+            <img src="favicon.png" alt="Logo">
         </div>
+
+        <h1>Data retrieved from placeholder-API: <a style="font-size: 1.2rem;" target="_blank" href="https://jsonplaceholder.typicode.com/users">https://jsonplaceholder.typicode.com/users</a></h1>
+            
+        <input type="search" id="search" placeholder="Search for matching data">
+        <button id="search-btn">🔍</button>
+
+              
+        <div style="overflow-y: auto; height: 700px">
+            <table id="user-data">
+                <thead>
+                    <tr id="table-headers"></tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+            </table>
+        </div>
+
+
+
     </main>
 
     <script src="script.js"></script>
