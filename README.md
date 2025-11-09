@@ -67,6 +67,6 @@ This project is open for educational and personal use under the [MIT License](ht
 ---
 
 <p align="center">
-  <img src="favicon.png" width="60" alt="Walkitoff logo"><br>
+  <img src="favicon.png" width="70" alt="Walkitoff logo"><br>
   <sub><b>Walkitoff</b> — because sometimes you can't rub dirt on it.</sub>
 </p>
